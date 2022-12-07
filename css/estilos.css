@@ -19,11 +19,29 @@
 	color:white;
 	padding:15px;
 }
+.color-parrafo{
+	color:#444444;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .text-size a{
 	color: #A0960C;
 }
 .text-size span{
 	color: black;
+}
+/* FORMULARIO DEL EJERCICIO*/
+.form_principal{
+    display:inline-block;
+    border: 2px double;
+	box-shadow:3px 0px 23px 0px rgba(50, 128, 204, 0.74);
+    margin-right:10px;
+	padding:5px;
+	background-color:#73A7D5;
+	border-radius:5px;
+}
+/*IMPUT DEL FORMULARIO */
+.block1,input{
+    display:block;  
 }
 /* Style the search field */
 form.example input[type=text] {
